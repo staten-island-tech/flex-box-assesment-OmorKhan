@@ -1,0 +1,58 @@
+
+$primary: #692d61;
+$secondary: #4568b4;
+$tertiary: #000000; 
+
+html {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+background-color: $secondary;
+height: 100%;
+}
+.whole {
+  height: 100rem;
+  position: relative;
+  font-size: 5rem;
+}
+.header {
+  position: absolute;
+  text-transform: uppercase;
+  color: $primary;
+  top: 0%;
+  right: 41.5%;
+}
+
+.flex-parent {
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  top: 45%;
+}
+.flex-child {
+  background-color: $tertiary;
+  justify-content: space-evenly;
+  margin: 110px;
+  height: 30vh;
+  width: 10vh;
+}
+.pink{
+  height: 30vh;
+  width: 20vh;
+}
+.pan{
+  height: 30vh;
+  width: 20vh;
+}
+.pn2{
+  height: 30vh;
+  width: 20vh;
+}
+ 
+.flex-parent2{
+  display: flex;
+}

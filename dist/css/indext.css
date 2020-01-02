@@ -1,0 +1,73 @@
+html {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #4568b4;
+  height: 100%;
+}
+
+.whole {
+  height: 100rem;
+  position: relative;
+  font-size: 5rem;
+}
+
+.header {
+  position: absolute;
+  text-transform: uppercase;
+  color: #692d61;
+  top: 0%;
+  right: 41.5%;
+}
+
+.flex-parent {
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  top: 45%;
+}
+
+.flex-child {
+  background-color: #000000;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 110px;
+  height: 30vh;
+  width: 10vh;
+}
+
+.pink {
+  height: 30vh;
+  width: 20vh;
+}
+
+.pan {
+  height: 30vh;
+  width: 20vh;
+}
+
+.pn2 {
+  height: 30vh;
+  width: 20vh;
+}
+
+.flex-parent2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=indext.css.map */

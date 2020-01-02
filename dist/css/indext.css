@@ -20,9 +20,9 @@ body {
 .header {
   position: absolute;
   text-transform: uppercase;
-  color: #692d61;
+  color: #000000;
   top: 0%;
-  right: 41.5%;
+  right: 44%;
 }
 
 .flex-parent {
@@ -50,24 +50,32 @@ body {
   width: 10vh;
 }
 
-.pink {
-  height: 30vh;
-  width: 20vh;
-}
-
-.pan {
-  height: 30vh;
-  width: 20vh;
-}
-
-.pn2 {
-  height: 30vh;
-  width: 20vh;
-}
-
 .flex-parent2 {
+  height: 10vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pink {
+  height: 40vh;
+  width: 50vh;
+}
+
+.pan {
+  height: 40vh;
+  width: 50vh;
+}
+
+.pn2 {
+  height: 40vh;
+  width: 50vh;
 }
 /*# sourceMappingURL=indext.css.map */

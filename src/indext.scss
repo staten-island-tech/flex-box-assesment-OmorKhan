@@ -41,8 +41,22 @@ font-size: 7rem;
   height: 40vh;
   width: 50vh;
 }
+
+.pink{
+    height: 40vh;
+    width: 50vh;
+}
+.pan{
+    height: 40vh;
+    width: 50vh;
+}
+.pn2{
+    height: 40vh;
+    width: 50vh;
+}
+   
 .flex-parent2{
-    height: 10vh;
+    height: -70vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -52,20 +66,12 @@ font-size: 7rem;
     display: flex;
     margin: 70px;
     height: 40vh;
-    width: 50vh;
-    
-}
-
-.pink{
-  height: 40vh;
-  width: 50vh;
-}
-.pan{
-  height: 40vh;
-  width: 50vh;
-}
-.pn2{
-  height: 40vh;
-  width: 50vh;
+    width: 50vh;   
 }
  
+#cute{
+    display: flex;
+    margin: 70px;
+    height: 50vh;
+    width: 60vh;  
+}

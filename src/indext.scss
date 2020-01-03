@@ -59,19 +59,42 @@ font-size: 7rem;
     height: -70vh;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    // justify-content: space-between;
 }
 
 .flex-child2{
     display: flex;
     margin: 70px;
-    height: 40vh;
-    width: 50vh;   
+    height: 60vh;
+    width: 70vh;   
+    // justify-content: space-between;
 }
- 
-#cute{
+.baby{
+    background-color: $secondary;
+}
+.cute{
+    
+    margin: 60px;
+    height: 30vh;
+     
+}
+.fang{
+   
+    margin: 60px;
+    height: 30vh;
+    
+}
+.mama{
+    
+    margin: 60px;
+    height: 30vh;
+    
+}
+#text1{
+    font-size: 2.5rem;
+}
+
+
+#pictues-flex{
     display: flex;
-    margin: 70px;
-    height: 50vh;
-    width: 60vh;  
 }

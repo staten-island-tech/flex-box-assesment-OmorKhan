@@ -75,9 +75,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .flex-child2 {
@@ -85,16 +82,36 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin: 70px;
-  height: 40vh;
-  width: 50vh;
+  height: 60vh;
+  width: 70vh;
 }
 
-#cute {
+.baby {
+  background-color: #4568b4;
+}
+
+.cute {
+  margin: 60px;
+  height: 30vh;
+}
+
+.fang {
+  margin: 60px;
+  height: 30vh;
+}
+
+.mama {
+  margin: 60px;
+  height: 30vh;
+}
+
+#text1 {
+  font-size: 2.5rem;
+}
+
+#pictues-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 70px;
-  height: 70vh;
-  width: 50vh;
 }
 /*# sourceMappingURL=indext.css.map */

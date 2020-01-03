@@ -10,7 +10,7 @@ html {
   box-sizing: border-box;
 }
 body {
-background-color: $secondary;
+background-color: $primary;
 height: 100%;
 }
 .whole {
@@ -24,7 +24,7 @@ text-transform: uppercase;
 color: $tertiary;
 top: 0%;
 right: 44%;
-  
+font-size: 7rem;  
 }
 
 .flex-parent {
@@ -38,8 +38,8 @@ right: 44%;
   background-color: $tertiary;
   justify-content: space-evenly;
   margin: 110px;
-  height: 30vh;
-  width: 10vh;
+  height: 40vh;
+  width: 50vh;
 }
 .flex-parent2{
     height: 10vh;
@@ -47,6 +47,15 @@ right: 44%;
     flex-direction: row;
     justify-content: space-between;
 }
+
+.flex-child2{
+    display: flex;
+    margin: 70px;
+    height: 40vh;
+    width: 50vh;
+    
+}
+
 .pink{
   height: 40vh;
   width: 50vh;

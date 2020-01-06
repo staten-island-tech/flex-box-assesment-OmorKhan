@@ -84,10 +84,18 @@ body {
   margin: 70px;
   height: 60vh;
   width: 70vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .baby {
   background-color: #4568b4;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .cute {
@@ -105,6 +113,10 @@ body {
   height: 30vh;
 }
 
+.babytext {
+  font-size: 3rem;
+}
+
 #text1 {
   font-size: 2.5rem;
 }
@@ -113,5 +125,19 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Bigbaby {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=indext.css.map */

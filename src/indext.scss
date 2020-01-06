@@ -1,7 +1,6 @@
-
 $primary: #692d61;
 $secondary: #4568b4;
-$tertiary: #000000; 
+$tertiary: #000000;
 
 html {
   font-size: 62.5%;
@@ -10,8 +9,8 @@ html {
   box-sizing: border-box;
 }
 body {
-background-color: $primary;
-height: 100%;
+  background-color: $primary;
+  height: 100%;
 }
 .whole {
   height: 100rem;
@@ -19,12 +18,12 @@ height: 100%;
   font-size: 5rem;
 }
 .header {
-    position: absolute;
-text-transform: uppercase;
-color: $tertiary;
-top: 0%;
-right: 44%;
-font-size: 7rem;  
+  position: absolute;
+  text-transform: uppercase;
+  color: $tertiary;
+  top: 0%;
+  right: 44%;
+  font-size: 7rem;
 }
 
 .flex-parent {
@@ -42,59 +41,63 @@ font-size: 7rem;
   width: 50vh;
 }
 
-.pink{
-    height: 40vh;
-    width: 50vh;
+.pink {
+  height: 40vh;
+  width: 50vh;
 }
-.pan{
-    height: 40vh;
-    width: 50vh;
+.pan {
+  height: 40vh;
+  width: 50vh;
 }
-.pn2{
-    height: 40vh;
-    width: 50vh;
+.pn2 {
+  height: 40vh;
+  width: 50vh;
 }
-   
-.flex-parent2{
-    height: -70vh;
+
+.flex-parent2 {
+  height: -70vh;
+  display: flex;
+  flex-direction: row;
+  // justify-content: space-between;
+}
+
+.flex-child2 {
+  display: flex;
+  margin: 70px;
+  height: 60vh;
+  width: 70vh;
+  flex-direction: column;
+
+  // justify-content: space-between;
+}
+.baby {
+  background-color: $secondary;
+  flex-direction: row;
+}
+.cute {
+  margin: 60px;
+  height: 30vh;
+}
+.fang {
+  margin: 60px;
+  height: 30vh;
+}
+.mama {
+  margin: 60px;
+  height: 30vh;
+}
+.babytext {
+  font-size: 3rem;
+}
+#text1 {
+  font-size: 2.5rem;
+}
+
+#pictues-flex {
+  display: flex;
+  flex-direction: column;
+}
+.Bigbaby{
     display: flex;
     flex-direction: row;
-    // justify-content: space-between;
-}
-
-.flex-child2{
-    display: flex;
-    margin: 70px;
-    height: 60vh;
-    width: 70vh;   
-    // justify-content: space-between;
-}
-.baby{
-    background-color: $secondary;
-}
-.cute{
-    
-    margin: 60px;
-    height: 30vh;
-     
-}
-.fang{
-   
-    margin: 60px;
-    height: 30vh;
-    
-}
-.mama{
-    
-    margin: 60px;
-    height: 30vh;
-    
-}
-#text1{
-    font-size: 2.5rem;
-}
-
-
-#pictues-flex{
-    display: flex;
 }

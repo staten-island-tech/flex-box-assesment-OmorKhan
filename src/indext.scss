@@ -64,14 +64,14 @@ body {
 .flex-child2 {
   display: flex;
   margin: 70px;
-  height: 60vh;
-  width: 70vh;
+  height: 57vh;
+  width: 120vh;
   flex-direction: column;
+  background-color:$secondary;
 
   // justify-content: space-between;
 }
 .baby {
-  background-color: $secondary;
   flex-direction: row;
 }
 .cute {
@@ -92,6 +92,9 @@ body {
 #text1 {
   font-size: 2.5rem;
 }
+.text2{
+    text-align: center;
+}
 
 #pictues-flex {
   display: flex;
@@ -100,4 +103,6 @@ body {
 .Bigbaby{
     display: flex;
     flex-direction: row;
+    
+
 }

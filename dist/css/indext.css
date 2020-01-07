@@ -82,16 +82,16 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin: 70px;
-  height: 60vh;
-  width: 70vh;
+  height: 57vh;
+  width: 120vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: #4568b4;
 }
 
 .baby {
-  background-color: #4568b4;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -121,6 +121,10 @@ body {
   font-size: 2.5rem;
 }
 
+.text2 {
+  text-align: center;
+}
+
 #pictues-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -135,9 +139,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 /*# sourceMappingURL=indext.css.map */
